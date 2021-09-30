@@ -448,7 +448,7 @@ h3 {
 
 .car2 {
   height: 397px;
-  background: url(../img/car/down_car.jpg);
+  background: url(../img/car/down_car.jpg) center center/cover no-repeat;
 }
 
 .car2_descr {
@@ -530,7 +530,7 @@ h3 {
 }
 
 .end {
-  background-image: url(/lesson3/src/img/bg/world_bg.png);
+  background: url(../img/bg/world_bg.svg) center center/cover no-repeat;
   height: 717px;
 }
 

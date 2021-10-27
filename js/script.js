@@ -49,27 +49,25 @@ $('.catalog-item_back').each(function(i){
         $('.overley, #order').fadeIn('slow');
     })
   })
-$('.feed-form').validate();
-$('#consultation form').validate();
 
-validateForms('#consultation-form');
-validateForms('#consultation form');
-validateForms('#mini form');
 
-$('input[name=phone]').mask("+7 (999) 999-99-99");
 
-$('form').submit(function(e) {
-  e.preventDefault();
-  $.ajax({
-      type: "POST",
-      url: "mailer/smart.php",
-      data: $(this).serialize()
-  }).done(function() {
-      $(this).find("input").val("");
-      $('#consultation, #order').fadeOut();
-      $('.overlay, #mini').fadeIn('slow');
+  $('form').submit(function(e) {
+    e.preventDefault();
 
-      $('form').trigger('reset');
-  });
-  return false;
+     
+
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #mini').fadeIn('fast');
+
+            $('form').trigger('reset');
+        });
+    
+    return false;
 });

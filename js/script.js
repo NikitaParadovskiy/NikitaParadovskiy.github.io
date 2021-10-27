@@ -49,13 +49,12 @@ $('.catalog-item_back').each(function(i){
         $('.overley, #order').fadeIn('slow');
     })
   })
-
-
+//POST GO GO GO
 
   $('form').submit(function(e) {
     e.preventDefault();
 
-     
+   
 
         $.ajax({
             type: "POST",
@@ -71,3 +70,5 @@ $('.catalog-item_back').each(function(i){
     
     return false;
 });
+
+//

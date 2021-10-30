@@ -1,0 +1,23 @@
+.carousel{
+    padding: 100px 0 100px 0;
+   
+    
+    .tns-item{
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .click__left, .click__right{
+        position: absolute;
+        top: 33%;
+        left: -50px;
+        border: none;
+        background-color: #fff;
+    }
+    .click__right{
+        left: auto;
+        right: -40px;
+    }
+}

@@ -1,0 +1,199 @@
+@media(max-width: 1050px){
+    .promo__wrapper {
+        align-items: center;
+    }
+    .consultation__header {
+        font-size: 28px;
+        text-align: center;
+    }
+    .consultation__subheader {
+        text-align: center;
+    }
+
+    .feed-form {
+        align-items: center;
+    }
+    .tns-item img {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+    }
+    .carousel{
+        .click__left{
+            left: 34px;
+        }
+        .click__right {
+            right: 26px;
+        }
+    }
+    .reviews__img_descr {
+        width: 500px;
+    }
+    .catalog__content_active {
+        margin: 0 40px;}
+}
+@media(max-width: 767px){
+    .promo img {
+        height: 37px;
+        margin-bottom: 19px;
+    }   
+    .promo__header {
+        font-size: 30px;}
+
+    .promo__subheader {
+        font-size: 16px;
+    }
+        .header span {
+            font-size: 12px;
+        }
+        .header .header__phone {
+            margin-bottom: 4px;
+            font-size: 16px;
+            line-height: 12px;
+            margin-right: 7px;  
+        }
+
+    .advantage {
+        min-height: 473px;
+        padding: 34px 0 16px 0;
+    }
+
+        .advantage__icons {
+            flex-direction: column;
+        }
+        .advantage .img_desc {
+            display: block;
+            margin: 22px auto;
+        }
+
+    .consultation {
+        padding: 50px 0 50px 0;
+    }
+
+    .consultation__header {
+        font-size: 18px;
+    }
+
+    .consultation__subheader {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .feed-form input {
+        width: 259px;
+        height: 39px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 61px;
+    }
+
+    .button__consultation {
+        width: 264px;
+        height: 51px;
+        margin-top: 42px;
+    }
+    .carousel{
+        .click__left{
+            left: 34px;
+        }
+        .click__right {
+            right: 26px;
+        }
+    }
+    .tns-item img {
+       
+        width: 350px;
+    }
+    .catalog__content_active {
+        justify-content: center;
+    }
+    .reviews__blok {
+        justify-content: center;
+        margin-bottom: 60px;
+        align-items: center;
+        flex-direction: column;}
+   
+}
+@media(max-width: 576px){
+    .promo img {
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    .header .header__official {
+        font-size: 10px;
+        line-height: 9px;
+    }  
+    .header span {
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 3px;
+    }
+    .header .header__phone {
+        margin-bottom: 4px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-right: 7px;
+    }
+    .button_tell {
+        margin-right: 3px;
+        width: 110px;
+        height: 26px;
+        border-radius: 5px;
+        font-size: 10px; 
+    } 
+    .promo__header {
+        font-size: 22px;
+    }
+    .promo__subheader {
+        font-size: 11px;
+    }
+    .promo__icons {
+        width: 317px;
+    }
+    .promo__icon {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .button_main {
+        width: 200px;
+        height: 38px;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .promo a {
+        font-size: 13px;
+    }
+
+    .advantage__header {
+        font-size: 22px;
+    }
+    .consultation__header {
+        font-size: 14px;
+        line-height: 33px;
+    }
+    .button__consultation {
+        width: 200px;
+        height: 35px;
+        margin-top: 42px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+                       
+
+               
+
+
+
+
+
+       

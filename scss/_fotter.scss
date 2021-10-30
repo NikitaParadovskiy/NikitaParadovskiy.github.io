@@ -1,0 +1,47 @@
+.footer{
+    position: relative;
+    
+    &__tab{
+        position: absolute;
+        width: 460px;
+        height: 270px;
+        background: #C70101;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &_addr{
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__tell{
+        display: block;
+        margin-top: 35px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        a{
+         color: #FFFFFF;
+        }
+    }
+    &_social{
+        margin: 35px 125px;
+       
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.google_map {
+    width:-webkit-fill-available;
+     height:630px; 
+     border:0;
+    
+}

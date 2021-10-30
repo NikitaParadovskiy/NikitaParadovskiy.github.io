@@ -54,7 +54,7 @@ $('.catalog-item_back').each(function(i){
   $('form').submit(function(e) {
     e.preventDefault();
 
-   
+       
 
         $.ajax({
             type: "POST",
@@ -70,5 +70,6 @@ $('.catalog-item_back').each(function(i){
     
     return false;
 });
+new WOW().init();
 
 //

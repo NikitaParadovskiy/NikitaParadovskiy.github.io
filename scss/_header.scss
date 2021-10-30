@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    .header__official {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    } 
+        span{
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    .header__phone {
+        margin-bottom: 5px;
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        align-items: flex-end;
+        text-align: right;
+        color: #FFFFFF;
+        text-decoration:none;
+    
+    }   
+        .header__phone:hover{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    .header__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

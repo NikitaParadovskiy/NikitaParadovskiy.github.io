@@ -138,7 +138,7 @@
         width: 110px;
         height: 26px;
         border-radius: 5px;
-        font-size: 10px; 
+        font-size: 9px; 
     } 
     .promo__header {
         font-size: 22px;
@@ -170,13 +170,61 @@
         font-size: 14px;
         line-height: 33px;
     }
+    .catalog__subheader {
+        width: 350px;
+    }
     .button__consultation {
         width: 200px;
         height: 35px;
         margin-top: 42px;
         font-size: 12px;
     }
+    .carousel .click__left, .carousel .click__right{
+        display:none;
+    }
+    .catalog__descr {
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
 
+    .footer_addr {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .footer__tab {
+        position: absolute;
+        width: 335px;
+        height: 183px;}
+    .footer_social {
+        margin: 35px 90px;
+    }
+    .reviews__img_name {
+        margin-top: 20px
+    }
+  
+    .reviews__img_descr {
+        width: 300px;
+    }
+    .modal {
+        display: block;
+        top: 5%;
+        left: 7%;
+        width: 282px;
+        height: 332px;
+        background: #F2F2F2;
+        padding: 10px 10px  10px 10px;}
+    .button__consultation {
+
+        margin-top: 10px;}
+    .feed-form input {
+        margin-top: -9px;
+    }
+    
 }
 
 

@@ -1020,5 +1020,20 @@
   .reviews__img_descr {
     width: 300px;
   }
+  .modal {
+    display: block;
+    top: 5%;
+    left: 7%;
+    width: 282px;
+    height: 332px;
+    background: #F2F2F2;
+    padding: 10px 10px  10px 10px;
+  }
+  .button__consultation {
+    margin-top: 10px;
+  }
+  .feed-form input {
+    margin-top: -9px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

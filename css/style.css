@@ -948,7 +948,7 @@
     width: 110px;
     height: 26px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 9px;
   }
   .promo__header {
     font-size: 22px;
@@ -984,6 +984,20 @@
     height: 35px;
     margin-top: 42px;
     font-size: 12px;
+  }
+  .footer__tab {
+    position: absolute;
+    width: 360px;
+    height: 223px;
+  }
+  .footer_social {
+    margin: 35px 90px;
+  }
+  .reviews__img_name {
+    margin-top: 20px;
+  }
+  .reviews__img_descr {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */

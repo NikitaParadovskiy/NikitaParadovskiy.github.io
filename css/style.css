@@ -985,10 +985,28 @@
     margin-top: 42px;
     font-size: 12px;
   }
+  .carousel .click__left, .carousel .click__right {
+    display: none;
+  }
+  .catalog__descr {
+    font-size: 12px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .footer_addr {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: center;
+    color: #FFFFFF;
+  }
   .footer__tab {
     position: absolute;
-    width: 360px;
-    height: 223px;
+    width: 335px;
+    height: 183px;
   }
   .footer_social {
     margin: 35px 90px;

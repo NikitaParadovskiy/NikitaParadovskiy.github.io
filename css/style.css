@@ -979,6 +979,9 @@
     font-size: 14px;
     line-height: 33px;
   }
+  .catalog__subheader {
+    width: 350px;
+  }
   .button__consultation {
     width: 200px;
     height: 35px;

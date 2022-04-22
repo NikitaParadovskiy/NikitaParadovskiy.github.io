@@ -1322,7 +1322,8 @@ template {
     padding: 0 10px;
   }
   .promo {
-    padding-top: 120px;
+    padding-top: 90px;
+    background: url("../img/main_bg.jpg") no-repeat 57.5%/cover;
   }
   .title__fz16 {
     font-size: 20px;
@@ -1330,11 +1331,15 @@ template {
     margin-left: 0;
   }
   .promo__subtitle {
-    margin-left: 22px;
+    margin-left: -1px;
+  }
+  .promo__subtitle:before {
+    left: 2%;
+    top: -28%;
   }
   .promo__title {
-    width: 300px;
-    font-size: 21px;
+    width: 320px;
+    font-size: 22px;
     margin: 61px auto;
   }
   .hamburger {
@@ -1380,6 +1385,9 @@ template {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
   .about_subtitle {
     font-weight: 700;

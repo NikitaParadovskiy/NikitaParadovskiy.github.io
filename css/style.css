@@ -1322,40 +1322,52 @@ template {
     padding: 0 10px;
   }
   .promo {
-    padding-top: 45px;
-  }
-  .promo__subtitle {
-    margin-left: 128px;
+    padding-top: 120px;
   }
   .title__fz16 {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 0;
+  }
+  .promo__subtitle {
+    margin-left: 22px;
   }
   .promo__title {
-    width: 258px;
-    font-size: 18px;
+    width: 300px;
+    font-size: 21px;
+    margin: 61px auto;
   }
   .hamburger {
     right: 10px;
   }
   .menu__link {
-    font-size: 18px;
+    font-size: 26px;
+    line-height: 38px;
   }
   .menu__list {
     list-style: none;
     margin-left: 104px;
     color: #FFFFFF;
-    margin-top: 27%;
+    margin-top: 55%;
   }
   .menu__close svg {
-    margin-left: -38px;
+    margin-left: -12px;
   }
   .menu__social {
     margin-left: 107px;
   }
   .about_wrapper {
-    -ms-grid-columns: 250px;
-        grid-template-columns: 250px;
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
+  }
+  .about span {
+    margin-top: 10px;
+  }
+  .about p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
   }
   .about .skils {
     -ms-grid-columns: 250px;
@@ -1364,17 +1376,45 @@ template {
   .title__fz__36 {
     font-size: 16px;
   }
+  .about_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .about_subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
   .resume {
     padding: 0;
     padding-top: 50px;
   }
+  .resume span {
+    margin-top: 5px;
+  }
   .resume__wrapper {
     padding-top: 25px;
-    -ms-grid-columns: 250px;
-        grid-template-columns: 250px;
+    -ms-grid-columns: 310px;
+        grid-template-columns: 310px;
+  }
+  .resume__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .resume__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .resume__body {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
   }
   .work__box span {
-    margin: 0px auto;
+    margin: px auto;
   }
   .work__skils {
     -ms-grid-columns: 240px;
@@ -1397,15 +1437,16 @@ template {
     left: 42%;
   }
   .portfolio__wrapper {
-    -ms-grid-columns: 240px;
-        grid-template-columns: 240px;
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
   }
   .contacts {
     padding: 50px 0 50px 0;
   }
   .contacts__wrapper {
-    -ms-grid-columns: 250px;
-        grid-template-columns: 250px;
+    padding: 0;
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
   }
   .contacts {
     padding-top: 0px;

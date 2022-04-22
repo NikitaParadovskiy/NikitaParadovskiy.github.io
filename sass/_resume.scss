@@ -1,0 +1,102 @@
+.resume{
+    padding-top: 120px;
+    padding: 120px 65px 0 65px ;
+    &__title{
+        text-align: center;
+         position: relative;
+        @include before_circl;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+       
+    }
+    &__subtitle{
+        text-align: center;
+    }
+    span{
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: $main-color;
+        margin: 0 auto;
+    }
+    &__wrapper{
+        padding: 60px 65px 0 65px ;
+        display: grid;
+        grid-template-columns: repeat(2, 425px);
+        column-gap: 135px;
+    }
+    &__column{
+        &-title{
+            position: relative;
+            padding-left: 35px;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background: $main-color;
+                border-radius: 100%;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+
+
+            }
+        }
+        
+    }
+    ul{
+        list-style-type: none;
+        li{
+            position: relative;
+           &:after{
+               content: '';
+               width: 1px;
+               height: calc(100% + 16px) ;
+               position: absolute;
+               top: -15px;
+               left: 0;
+               background-color: black;
+
+           } 
+        }
+
+    }
+    &__item{
+        position: relative;
+        &:before {
+            content: '';
+            height: 1px;
+            width: 43px;
+            position: absolute;
+            background-color: black;
+            top: 47px;
+        }
+
+        &-head{
+            position: relative;
+            padding: 25px 0 0 100px;
+        }
+        &-icon{
+            position: absolute;
+            top: 29px;
+            left: 43px;
+            @include before_circle
+            
+        }
+        h4{
+            margin: 0;
+        }
+        img{
+            position: absolute;
+            left: 17px;
+            top: 14px;
+            }
+    }
+    &__body{
+        margin-top: 15px;
+        padding-left: 43px;
+    }
+}

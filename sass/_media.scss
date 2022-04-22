@@ -1,0 +1,298 @@
+@media (max-width: 1200px){
+        .contener{
+            max-width: 960px;
+        }
+        .sidepanel{
+            display: none;
+        }
+        
+
+        .promo__subtitle {
+             margin-left: 107px;
+        }
+        .promo__title {
+            width: 600px;
+            font-size: 30px;
+            margin-top: 25px;
+            margin-left: 115px;
+        }
+        .promo_btns {
+            margin-left: 120px;
+            width: 230px;
+        }
+        .about_wrapper {
+            grid-template-columns: 440px 500px;
+        }
+        .work_efficiency {
+            grid-template-columns: 350px 350px;
+            row-gap: 30px;
+        }
+        .portfolio__wrapper {
+            grid-template: repeat(2, 250px)/repeat(3, 250px);
+            grid-auto-rows: 200px;
+            justify-content: center;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+        }
+        .contacts__wrapper {
+            grid-template-columns: 600px;
+            justify-content: center;
+        }
+        .contacts__discription{
+            padding-top: 15px;
+            justify-content: center;
+        }
+        .contacts_title{
+            margin: 0 auto;
+        }
+}
+@media (max-width: 992px){
+    .hamburger {
+        top: 18px;
+    }
+    .contener{
+        max-width: 720px;
+    }
+    .promo{
+        padding-top: 15px;
+    }
+    .promo__title {
+       
+        width: 450px;
+        line-height: 40px;
+        margin: 15px auto;
+    }
+    .promo__subtitle {
+        margin-left: 124px;
+    }
+    .promo_btns{
+        display: none;
+    }
+    .about {
+        padding-top: 50px;
+    }
+    .about_wrapper {
+        grid-template-columns: 500px;
+        gap: 15px;
+        justify-content: center;
+    }
+    .about_title {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .about_title:before {
+        content: '';
+        position: absolute;
+        left: 33%;
+        top: -29%;}
+    .resume {
+            padding: 80px 65px 0 65px;
+    }   
+    .resume__wrapper {
+        grid-template-columns: 500px;
+    }
+    .work {
+        padding-top: 50px;
+    }
+    .work__skils {
+        padding-top: 30px;
+        grid-template-columns: 270px 270px;
+        gap: 30px;
+        justify-content: center;
+    }
+    .work_efficiency {
+        padding-top: 50px;
+        grid-template-columns: 350px;
+        gap: 50px;
+
+    }
+    .portfolio {
+        padding-top: 50px;
+    }
+    .portfolio__wrapper {
+
+        grid-template: repeat(2, 200px)/repeat(3, 200px);
+        grid-auto-rows: 200px;
+        justify-content: center;
+    }
+
+    .contacts__discription{
+    margin-top: 18px;
+   }
+   .contacts__form {
+    row-gap: 29px;
+    }
+}
+@media (max-width: 768px){
+    .contener{
+        max-width: 540px;
+    }
+    .promo__subtitle {
+        margin-left: 86px;
+    }
+    .promo__title {
+        width: 364px;
+        line-height: 28px;
+        font-size: 23px;
+        margin: 15px auto;
+    }
+    .about .skils {
+        gap: 9px;
+    }
+    .about_title:before {
+        left: 36%;}
+    .resume__wrapper {
+        grid-template-columns: 364px;
+    }
+    .resume__wrapper {
+        padding: 60px 65px 0 20px;
+    }
+    .title__fz__36 {
+        font-size: 25px;
+    }
+    .resume__title:before {
+        left: 44%;}
+    
+    .work__skils {
+        grid-template-columns: 300px;
+    }
+    .portfolio__wrapper {
+    
+        grid-template: repeat(2, 200px)/repeat(2, 200px);
+    }
+    .contacts__wrapper {
+        grid-template-columns: 430px;
+    }
+    .contacts__form {
+        grid-template-columns: 200px;
+    }
+    .contacts__triggers {
+        grid-template-columns: 300px;
+        gap: 10px;
+    }
+}
+
+    
+
+@media (max-width: 576px){
+    .contener{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .promo{
+        padding-top: 45px;
+    }
+    .promo__subtitle {
+        margin-left: 128px;
+    }
+    .title__fz16 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .promo__title {
+        width: 258px;
+        font-size: 18px;
+    }
+    .hamburger {
+        right: 10px;
+    }
+    .menu__link {
+        font-size: 18px;
+    }
+    .menu__list {
+        list-style: none;
+        margin-left: 104px;
+        color: #FFFFFF;
+        margin-top: 27%;
+    }
+    .menu__close svg {
+        margin-left: -38px;
+    }
+    .menu__social {
+        margin-left: 107px;
+    }
+    .about_wrapper {
+        grid-template-columns: 250px;
+    }
+    .about .skils {
+        grid-template-columns: 250px;
+    }
+    .title__fz__36 {
+        font-size: 16px;
+    }
+    .resume {
+        padding: 0;
+        padding-top: 50px;
+    }
+    .resume__wrapper {
+        padding-top: 25px;
+        grid-template-columns: 250px;
+    }
+    .work__box span {
+        margin: 0px auto;
+    }
+    .work__skils {
+        grid-template-columns: 240px;
+    }
+    .work__skils-border {
+        width: 240px;
+    }
+    .work_efficiency {
+        grid-template-columns: 240px;
+    }
+    .work_efficiency span:before {
+        width: 240px;
+    }
+    .work_efficiency span {
+        width: 240px;
+    }
+    .resume__title:before {
+        left: 42%;
+    }
+    .portfolio__wrapper {
+        grid-template-columns: 240px;
+    }
+    .contacts {
+    padding: 50px 0 50px 0;
+    }
+    .contacts__wrapper {
+        grid-template-columns: 250px;
+    }
+    .contacts{
+        padding-top: 0px;
+        img{
+            display: none;
+        }
+
+    }
+    .contacts_subtitle {
+        font-size: 24px;
+    }
+    .contacts__text {
+        font-size: 13px;
+    }
+
+    .contacts__form {
+        display: block;
+        margin-top: 15px;
+        grid-template: 45px 190px 45px/ 120px;
+        row-gap: 15px;
+    }
+    .contacts__input{
+        margin-bottom: 20px;
+    }
+    .contacts__input Input {
+        padding: 10px 20px;
+    }
+    .contacts__btn{
+        width: 250px;
+    }
+    .contacts__policy{
+        width: 250px;
+    }
+}

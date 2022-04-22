@@ -2,423 +2,340 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RunSmart</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Мое портфолио">
+    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Мое портфолио">
+    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Мое портфолио">
+    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="promo">
-        <div class="contener">
-            <header class="header">
-                <a href="#" class="header__logo">
-                    <img src="img/header/logo_Run.png" alt="logo">
-                </a>
-                <div class="header__official">
-                    Официальный представитель
-                    <span>Garmin, Polar, Suunto</span>
-                </div>
-                <div class="header__contacts">
-                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button data-modal="consultation_menu" class="button button_tell">заказать звонок</button>
-
-                </div>
-
-            </header>
-            <div class="promo__wrapper"><h1 class="promo__header">Подбор пульсометра</h1>
-                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
-                <div class="promo__icons">
-                    <div class="promo__icon"><img src="img/header/mid/timer_time_stopwatch.png" alt="cart">Время подбора: 10 минут</div>
-                    <div class="promo__icon"><img src="img/header/mid/hand-cart-64.png" alt="messages">Бесплатная доставка</div>
-                    <div class="promo__icon"><img src="img/header/mid/messages.png" alt="">Ответим на все вопросы</div>
-                </div>
-                <button data-modal="consultation_menu" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
-            <div class="promo__link">
-                или
-                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
-            </div>
-            </div>
-            
-            
-        </div>
-    </section>
-    <section class="advantage">
-        <div class="contener">
-            <h2 class="advantage__header">НАШИ ПРЕИМУЩЕСТВА</h2>
-            <div class="advantage__icons">
-                <div class="advantage__icon"><img src="img/advantage/cup.png" alt="cup">Делимся опытом 
-                    <div class="img_desc">
-                    Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
-                    </div>
-                </div>
-                <div class="advantage__icon"><img src="img/advantage/heart.png" alt="heart" class="advantage__icon_heart">Заботимся о здоровье 
-                    <div class="img_desc">
-                        Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
-                    </div>
-                </div>
-                <div class="advantage__icon"><img src="img/advantage/shoe.png" alt="shoe">Учим бегать
-                    <div class="img_desc">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="consultation">
-        <div class="contener">
-            <h2 class="consultation__header">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
-            <h2 class="consultation__subheader">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</h2>
-            <form class="feed-form" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
-                <input name="email" required placeholder="Ваш e-mail" type="email">
-                <button class="button button__consultation">заказать кОНСУЛЬТАЦИЮ</button>
-            </form>
-        </div>
-    </section>
-    <section class="carousel">
-        <div class="contener">
-            <div class="carousel__slider">
-                <div>
-                    <img src="img/carousel/№1.png" alt="1">
-                </div>
-                <div>
-                    <img src="img/carousel/№2.png" alt="2">
-                </div>
-                <div>
-                    <img src="img/carousel/№3.png" alt="3">
-                </div>
-              </div>
-             <button type="button" class="click__left"> <img src="img/carousel/chevron-left-solid.png"></button>
-             <button type="button" class="click__right"><img src="img/carousel/chevron-right-solid.png"></button>
-        </div>
-    </section>
-
-    <section class="catalog">
-        <div class="contener">
-            <div>
-                <h2 class="catalog__header">Каталог пульсометров</h2>
-            </div>
-            <ul    class="catalog__subheader">
-                <li class="catalog__descr catalog__descr_active"> <div>Для фитнеса</div> </li>
-                <li class="catalog__descr"><div>для бега</div></li>
-                <li class="catalog__descr"><div>для триатлона</div></li>
-            </ul>
-            <div class="catalog__content catalog__content_active">
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">7390 руб.</div>
-                                    <div class="catalog-item_price">7021 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div> 
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>   
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div>
-            
-            </div>
-            <div class="catalog__content">
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">4 750 руб.</div>
-                                    <div class="catalog-item_price">4 500 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">6 690 руб.</div>
-                                    <div class="catalog-item_price">6 641 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div> 
-                </div>
-            </div> 
-            <div class="catalog__content">
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                        <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/catalog/photo_clock.png" alt="pulsometr" class="catalog-item__img">
-                            <div class="catalog-item__subtitle">Пульсометр Polar FT4</div>
-                            <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                        </div>
-                        <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item_back">НАЗАТ</a>
-                        </ul>
-                    </div>
-                            <hr>
-                            <div class="catalog-item__fotter">
-                                <div class="catalog-item__fotter_price">
-                                    <div class="catalog-item__old_price">6 690 руб.</div>
-                                    <div class="catalog-item_price">6 641 руб.</div>
-                                </div>
-                                <button class="button button__buy">КУПИТЬ</button>
-                            </div>
-                </div> 
-            </div>       
-    </section>
-   <section class="reviews">
-       <div class="contener">
-           <div class="reviews__client">отзывы клиентов</div>
-            <div class="reviews__blok animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay=".5s">
-                <img src="img/reviews/photo_1.png" alt="">
-                <div class="reviews__img_name ">Ирина Иванченко <span>2 полумарафона</span>
-                    <div class="reviews__img_descr">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же. <br><br> Новые цели - новый гаджет! <br><br>
-                    Спасибо, RunSmart! 
-                    </div>
-                </div>
-            </div>
-            <div class="reviews__blok animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay=".85s">
-                <img src="img/reviews/photo_2.png" alt="">
-                <div class="reviews__img_name">Иван Сёмочкин <span>1 полумарафона</span>
-                    <div class="reviews__img_descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. <br> Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд. <br> С ними подготовился к своему первому полумарафону! Спасибо!!!
-                    </div>
-                </div>
-            </div>
-            <div class="reviews__blok animate__animated animate__fadeInUp  wow data-wow-duration="2s" data-wow-delay="1.25s">
-                <img src="img/reviews/photo_3.png" alt="">
-                <div class="reviews__img_name">Юлия Дашкина <span>2 полумарафона</span>
-                    <div class="reviews__img_descr">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать. <br> Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться! <br> <br> Спасибо!!!
-                    </div>
-                </div>
-            </div>
-   </section>
-   <footer class="footer">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1634027615076!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy" class="google_map" ></iframe>
-    <div class="footer__tab">
-        <div class="footer_addr">Москва, Мясницкий проезд, д.3с1
-        </div>
-        <a class="footer__tell" href="tel:84999228974">8 (499) 922-89-74</a>
-        <div class="footer_social">
-            <div class="fes"><a href="#"><img src="img/footer/icon/f.png" alt="f"></a></div>
-            <div class="ins"><a href="#"><img src="img/footer/icon/i.png" alt="i"></a></div>
-            <div class="ped"><a href="#"><img src="img/footer/icon/p.png" alt="p"></a></div>
-        </div>
-    </div>
-   </footer>
-   <div class="overley">
-       <div class="modal" id="consultation">
-           <div class="modal__close">&times;</div>
-           <div class="modal__subtitle">Просто заполните форму заявки</div>
-           <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
-           <form class="feed-form" action="#">
-            <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваш телефон" type="number">
-            <input name="email" required placeholder="Ваш e-mail" type="email">
-            <button class="button button__consultation">заказать кОНСУЛЬТАЦИЮ</button>
-        </form>
-       </div>
-       <div class="modal" id="order">
-                <div class="modal__close">&times;</div>
-                <div class="modal__subtitle">Ваш заказ:</div>
-                <div class="modal__descr">Пульсометр Polar FT1</div>
-                <form class="feed-form" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
-                <input name="email" required placeholder="Ваш e-mail" type="email">
-                <button class="button button__consultation">Купить</button>
-        </form>
-        </div>
-        <div class="modal modal_mini" id="mini">
-                <div class="modal__close">&times;</div>
-                <div class="modal__subtitle">Спасибо за вашу заявку!</div>
-                <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
-               
-        </div>
-   </div>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/script.js" ></script>
+    <aside class="sidepanel">
+        <a href="https://www.facebook.com/profile.php?id=100009080797765" class="sidepanel__link"><img src="icons/social/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/nikita__07777/" class="sidepanel__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
+        <a href="https://github.com/NikitaParadovskiy" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a>
+        <div class="sidepanel_divider"></div>
+        <div class="sidepanel_text"><span>Социальные сети</span></div>
+    </aside>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <svg width="29" height="30" viewBox="0 0 29 30"         fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="black"/>
+                </svg>
+            </div>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <div class="menu__social">
+                <a href="https://github.com/NikitaParadovskiy"><svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37317 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37317 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z" fill="#212121"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/nikita__07777/"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.7495 0L6.24951 0C2.79826 0 -0.000488281 2.79875 -0.000488281 6.25L-0.000488281 13.75C-0.000488281 17.2013 2.79826 20 6.24951 20L13.7495 20C17.2008 20 19.9995 17.2013 19.9995 13.75L19.9995 6.25C19.9995 2.79875 17.2008 0 13.7495 0ZM18.1245 13.75C18.1245 16.1625 16.162 18.125 13.7495 18.125L6.24951 18.125C3.83701 18.125 1.87451 16.1625 1.87451 13.75L1.87451 6.25C1.87451 3.8375 3.83701 1.875 6.24951 1.875L13.7495 1.875C16.162 1.875 18.1245 3.8375 18.1245 6.25L18.1245 13.75Z" fill="black"/>
+                    <path d="M9.99951 5C7.23826 5 4.99951 7.23875 4.99951 10C4.99951 12.7613 7.23826 15 9.99951 15C12.7608 15 14.9995 12.7613 14.9995 10C14.9995 7.23875 12.7608 5 9.99951 5ZM9.99951 13.125C8.27701 13.125 6.87451 11.7225 6.87451 10C6.87451 8.27625 8.27701 6.875 9.99951 6.875C11.722 6.875 13.1245 8.27625 13.1245 10C13.1245 11.7225 11.722 13.125 9.99951 13.125Z" fill="black"/>
+                    <path d="M15.3745 5.29123C15.7425 5.29123 16.0408 4.99295 16.0408 4.62499C16.0408 4.25703 15.7425 3.95874 15.3745 3.95874C15.0065 3.95874 14.7083 4.25703 14.7083 4.62499C14.7083 4.99295 15.0065 5.29123 15.3745 5.29123Z" fill="black"/>
+                    </svg>
+                </a>
+                 <a href="https://www.facebook.com/profile.php?id=100009080797765"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.0698 0L2.9292 0C1.3139 0 -0.000488281 1.31439 -0.000488281 2.92969L-0.000488281 17.0703C-0.000488281 18.6856 1.3139 20 2.9292 20L8.82764 20L8.82764 12.9297L6.48389 12.9297L6.48389 9.41406L8.82764 9.41406L8.82764 7.03125C8.82764 5.09262 10.4046 3.51563 12.3433 3.51563L15.8979 3.51563L15.8979 7.03125L12.3433 7.03125L12.3433 9.41406L15.8979 9.41406L15.312 12.9297L12.3433 12.9297L12.3433 20L17.0698 20C18.6851 20 19.9995 18.6856 19.9995 17.0703L19.9995 2.92969C19.9995 1.31439 18.6851 0 17.0698 0Z" fill="black"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+    
+    <section class="promo" >
+        <div class="hamburger">
+            <span></span>
+            <span class="long"></span>
+            <span></span>
+        </div>
+        <div class="contener">
+            <div class="title title__fz16 promo__subtitle">Меня зовут Никита Парадовский</div>
+            <h1 class="title title__fz__48 promo__title">Я web-разработчик 
+                из Украины , города  Запорожья</h1>
+            <div class="promo_btns">
+                <a href="#" class="promo__links btn">Портфолио</a>
+                <a href="#" class="promo__links ">Про меня</a>
+            </div>    
+        </div>
+    </section>
+    <section class="about">
+        <div class="contener">
+           <div class="about_wrapper">
+             <div class="about_img"><img src="/src/img/IMG_0606.JPG" alt="mi"></div>
+             <div class="about__description">
+                 <div class="about_title title__fz__36 promo__subtitle">Про меня</div>
+                 <div class="about_subtitle title__fz__16">Меня зовут Никита Парадовский</div>
+                 <span></span>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumL</p>
+                 <div class="skils">
+                     <div class="about_colons about_svg">
+                         <img class="about_svg" src="/src/icons/about_me/web_development.svg" alt="web"> 
+                         <div class="skils_description"><div class="skils__title">Web-разработка</div>
+                         <div class="skils__subtitle ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                        </div>
+                     </div>
+                     <div class="about_colons about_svg">
+                        <img class="about_svg" src="/src/icons/about_me/mobile_dev.svg" alt="mobile"> 
+                        <div class="skils_description"><div class="skils__title">Разработка приложений</div>
+                        <div class="skils__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                       </div>
+                        </div>
+                    <div class="about_colons about_svg">
+                        <img class="about_svg" src="/src/icons/about_me/design.svg" alt="desing"> 
+                        <div class="skils_description"><div class="skils__title">UI/UX Design</div>
+                        <div class="skils__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                       </div>
+                    </div>
+                 </div>
+             </div>  
+           </div> 
+        </div>
+    </section>
+    <section class="resume">
+        <div class="contener">
+            <h2 class="title title__fz16 resume__title">Опыт</h2>
+            <div class="title title__fz__36 resume__subtitle">Чем я буду полезен</div>
+            <span></span>
+                <div class="resume__wrapper">
+                    <div class="resume__colmn">
+                    <h3 class="title title__fz20 resume__column-title">Образование</h3>  
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title__fz14">Донбасский государственный технический университет (ДонГТУ)</h4>
+                                    <div class="resume__item-location title title__fz12">Диплом специалиста | Алчевск (2007-2011)</div>
+                                </div>
+                                <div class="resume__body title title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/courses.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title__fz14">Udemy</h4>
+                                    <div class="resume__item-location title title__fz12">Курсы по Web-разработке </div>
+                                </div>
+                                <div class="resume__body title title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="resume__colmn">
+                        <h3 class="title title__fz20 resume__column-title">Опыт работы</h3>  
+                        <ul>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/experience/university.svg" alt="university">
+                                        </div>
+                                        <h4 class="title title__fz14">Донбасский государственный технический университет (ДонГТУ)</h4>
+                                        <div class="resume__item-location title title__fz12">Диплом специалиста | Алчевск (2007-2011)</div>
+                                    </div>
+                                    <div class="resume__body title title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+        
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/experience/university.svg" alt="university">
+                                        </div>
+                                        <h4 class="title title__fz14">Донбасский государственный технический университет (ДонГТУ)</h4>
+                                        <div class="resume__item-location title title__fz12">Диплом специалиста | Алчевск (2007-2011)</div>
+                                    </div>
+                                    <div class="resume__body title title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+                </div>
+            </section>
+    <section class="work">
+        <div class="contener">
+             <div class="work__box">
+                <h2 class="title title__fz16 resume__title" >Навыки</h2>
+                <div class="title title__fz__36 resume__subtitle">Что я использую в работе</div>
+                <span></span>
+                <div class="work__skils">
+                    <div class="work__skils-border">
+                    <div class="work__skils-img"><img src="/src/icons/skills/html5.svg" alt="html"></div>
+                    <h2 class="work__skils-langvidch title title__fz14">HTML5</h2>
+                    <div class="work__skils-text title title__fz12">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</div>   
+                    </div>
+                    <div class="work__skils-border">
+                        <div class="work__skils-img"><img src="/src/icons/skills/css3.svg" alt="css3"></div>
+                        <h2 class="work__skils-langvidch title title__fz14">CSS3</h2>
+                        <div class="work__skils-text title title__fz12">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</div>   
+                    </div>
+                    <div class="work__skils-border">
+                        <div class="work__skils-img"><img src="/src/icons/skills/jquery.svg" alt="jquery"></div>
+                        <h2 class="work__skils-langvidch title title__fz14">jquery</h2>
+                        <div class="work__skils-text title title__fz12">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>   
+                    </div>
+                    <div class="work__skils-border">
+                        <div class="work__skils-img"><img src="/src/icons/skills/js.svg" alt="js"></div>
+                        <h2 class="work__skils-langvidch title title__fz14">Java Script</h2>
+                        <div class="work__skils-text title title__fz12">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>   
+                    </div>
+                </div>    
+            </div>
+
+            <div class="work_efficiency">
+                <div class="work_efficiency-block">
+                    <h3 class="block title title__fz14">Создание сайтов <div>100%</div> </h3>
+                    <span></span>
+                </div>
+                <div class="work_efficiency-block">
+                    <h3 class="block title title__fz14">Работа с данными <div>90%</div> </h3>
+                    <span style="width: 90%;"></span>
+                </div> <div class="work_efficiency-block">
+                    <h3 class="block title title__fz14">Креативность <div>85%</div> </h3>
+                    <span style="width: 85%;"></span>
+                </div> <div class="work_efficiency-block">
+                    <h3 class="block title title__fz14">Soft skills <div>80%</div> </h3>
+                    <span style="width: 80%;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="contener">
+            <div class="work__box">
+                <h2 class="title title__fz16 resume__title" >Портфолио</h2>
+                <div class="title title__fz__36 resume__subtitle">Мои работы</div>
+                <span></span>
+            </div>
+            <div class="portfolio__wrapper">
+               <a href="#" class="portfolio__item"><img src="img/works/uber.jpg" alt="uber"></a> 
+            
+            <a href="#" class="portfolio__item"><img src="img/works/pulse.jpg" alt="uber"></a> 
+            
+            <a href="#" class="portfolio__item"><img src="img/works/bread.jpg" alt="uber"></a> 
+          
+            <a href="#" class="portfolio__item"><img src="img/works/plans.jpg" alt="uber"></a> 
+            
+            <a href="#" class="portfolio__item"><img src="img/works/ipad.jpg" alt="uber"></a> 
+            <a href="#" class="portfolio__item"><img src="img/works/mac.jpg" alt="uber"></a> 
+            </div>     
+        </div>
+    </section>
+    <section class="contacts">
+      <div class="contener">
+          <div class="contacts__wrapper">
+                <div class="about_img"><img src="/src/img/IMG_0606.JPG"     alt="mi">
+                </div>
+                <div class="contacts__discription">
+                    <div class="contacts_title title__fz__16">Контакты
+                    </div>
+                    <div class="contacts_subtitle title__fz__36">Свяжитесь со мной</div>
+                    <span></span>
+                    <div class="title title__fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="contacts__social">
+                        <a href="https://t.me/ParNikita"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7538 11.4987 19.3838 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6113 5.8725 15.0625 6.86375 14.675Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/nikita__07777/"><svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.7495 0L6.24951 0C2.79826 0 -0.000488281 2.79875 -0.000488281 6.25L-0.000488281 13.75C-0.000488281 17.2013 2.79826 20 6.24951 20L13.7495 20C17.2008 20 19.9995 17.2013 19.9995 13.75L19.9995 6.25C19.9995 2.79875 17.2008 0 13.7495 0ZM18.1245 13.75C18.1245 16.1625 16.162 18.125 13.7495 18.125L6.24951 18.125C3.83701 18.125 1.87451 16.1625 1.87451 13.75L1.87451 6.25C1.87451 3.8375 3.83701 1.875 6.24951 1.875L13.7495 1.875C16.162 1.875 18.1245 3.8375 18.1245 6.25L18.1245 13.75Z" fill="black"/>
+                            <path d="M9.99951 5C7.23826 5 4.99951 7.23875 4.99951 10C4.99951 12.7613 7.23826 15 9.99951 15C12.7608 15 14.9995 12.7613 14.9995 10C14.9995 7.23875 12.7608 5 9.99951 5ZM9.99951 13.125C8.27701 13.125 6.87451 11.7225 6.87451 10C6.87451 8.27625 8.27701 6.875 9.99951 6.875C11.722 6.875 13.1245 8.27625 13.1245 10C13.1245 11.7225 11.722 13.125 9.99951 13.125Z" fill="black"/>
+                            <path d="M15.3745 5.29123C15.7425 5.29123 16.0408 4.99295 16.0408 4.62499C16.0408 4.25703 15.7425 3.95874 15.3745 3.95874C15.0065 3.95874 14.7083 4.25703 14.7083 4.62499C14.7083 4.99295 15.0065 5.29123 15.3745 5.29123Z" fill="black"/>
+                            </svg>
+                        </a>
+                            <a href="https://www.facebook.com/profile.php?id=100009080797765"><svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.0698 0L2.9292 0C1.3139 0 -0.000488281 1.31439 -0.000488281 2.92969L-0.000488281 17.0703C-0.000488281 18.6856 1.3139 20 2.9292 20L8.82764 20L8.82764 12.9297L6.48389 12.9297L6.48389 9.41406L8.82764 9.41406L8.82764 7.03125C8.82764 5.09262 10.4046 3.51563 12.3433 3.51563L15.8979 3.51563L15.8979 7.03125L12.3433 7.03125L12.3433 9.41406L15.8979 9.41406L15.312 12.9297L12.3433 12.9297L12.3433 20L17.0698 20C18.6851 20 19.9995 18.6856 19.9995 17.0703L19.9995 2.92969C19.9995 1.31439 18.6851 0 17.0698 0Z" fill="black"/></svg>
+                        </a>
+                            </div>
+                            <div class="contacts__text title title__fz14 ">Или оставьте ваши данные и я сам вам напишу:
+                            <div>
+                            <form action="#" class="contacts__form">
+                                <div class="contacts__input">
+                                    <input required  name="name" id="name" type="text">
+                                    <label for="name">Ваше имя</label>
+                                </div>
+                                <div class="contacts__input">
+                                    <input required name="email" id="email" type="email">
+                                    <label for="email">Ваша почта</label>
+                                </div>
+                                <div class="contacts__textarea">
+                                    <textarea name="text" id="text"></textarea>
+                                    <label for="text">Ваше сообщение</label>
+                                </div>
+                                <div class="contacts__triggers"> <button class="contacts__btn btn">Отправить сообщение</button>
+                                    <div class="contacts__policy">
+                                        <p><input required type="checkbox">
+                                Я согласен(а) c <a href="/src/polici.html">политикой конфидециальности</a></p>  
+                                    </div>
+                                </div>
+                               
+                            </form>  
+    
+                        </div>
+                    </div> 
+                </div>
+                
+            </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>

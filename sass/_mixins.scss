@@ -1,0 +1,45 @@
+@mixin before_circle {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        background: $main-color;
+        z-index: -1;
+        left: 1%;
+        top: -26%;
+    }
+
+}
+@mixin before_circl {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 39px;
+        height: 39px;
+        border-radius: 100px;
+        background: $main-color;
+        z-index: -1;
+        left: 2%;
+        top: -28%;
+    }
+    
+
+}
+@mixin before_svg {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        background: $main-color;
+        z-index: -1;
+        top: 10%;
+        left: -6%;
+        
+    }
+    
+
+}
